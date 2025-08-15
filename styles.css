@@ -119,12 +119,13 @@ main hr {
     margin: 0px 204px;
 }
 .image-top {
-    border: 5px solid #fff;
-    width: 380px;
+    
+    width: 400px;
+    
     position: relative;
     top: -224px;
     left: -200px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 .vertical-title {
     position: relative;
@@ -276,7 +277,7 @@ footer .footer-rights {
     padding: 12px 0;
 }
 
-/* --- MOBILE FIX (â‰¤768px) --- */
+/* --- MOBILE FIX (≤768px) --- */
 @media (max-width: 768px) {
     html, body {
         max-width: 100% !important;
